@@ -1,0 +1,175 @@
+body {
+    background-color: black;
+    background-image: url(http://supercooler.me/novo/wp-content/uploads/2015/09/ceva-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Macondo', cursive;
+}
+
+header {
+    background-color: white;
+    float: start;
+}
+
+section {
+    background-color: black;
+    margin: 100px;
+    color: white;
+    padding: 20px;
+}
+
+#brew-table {
+    border-style: none;
+    font-size: 20px;
+}
+
+.brew-image img {
+    border-radius: 10px;
+    max-width: 1000px;
+    max-height: 1000px;
+    width: auto;
+    height: auto;
+}
+
+.contact-list li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact-list li a:hover {
+    font-weight: bold;
+}
+
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.whatsapp-img {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.main-text {
+    font-size: 40px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header nav li {
+    float: left;
+}
+
+header nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    background-color: #646464;
+}
+
+aside {
+    width: 160px;
+    height: 500px;
+    float: left;
+    background: #c0c000;
+    margin: 0 auto 0 10px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #aaa8a8;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.custom-button {
+    background-color: #5d5d5d;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.custom-input{
+    background-color: #8c8c8c;
+    border: none;
+    color: white;
+    padding: 16px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+.custom-button:hover {
+    background-color: #bdbdbd;
+    color: #000000;
+}
+
+
